@@ -16,16 +16,7 @@ const firebaseConfig = {
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
-
-  //   apiKey: 'AIzaSyCUVBuo4R29HRWHLZkn5FprRBETybO50Jc',
-  //   authDomain: 'prepwise-d8d78.firebaseapp.com',
-  //   projectId: 'prepwise-d8d78',
-  //   storageBucket: 'prepwise-d8d78.firebasestorage.app',
-  //   messagingSenderId: '241965686220',
-  //   appId: '1:241965686220:web:b244a5ed4609088aaa5169',
-  //   measurementId: 'G-FMSSH20QMW',
 };
-
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 // const analytics = getAnalytics(app);
